@@ -1,0 +1,27 @@
+name: Render
+on:
+  schedule:
+    - cron: '*/60 * * * *'
+jobs:
+  render:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v1
+      - name: Install dependencies
+        run: |
+          install.packages(c("distill", "imager"), type = "win.binary")
+        shell: Rscript {0}
+      - name: Script
+        run: Rscript render.R
+      - name: Commit files
+        run: |
+          git config --local user.name github-actions
+          git config --local user.email "actions@github.com"
+          git add output/*
+          git commit -am "refresh at $(date)"
+          git push origin main
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions

@@ -1,0 +1,58 @@
+---
+title: "Light Brushing"
+description: Feb 2015 - Aug 2021
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+I am a photographer.
+
+I affirm this each morning by pointing my camera at the window and taking a photograph, nothing more than this.
+
+Since February 2015 (ongoing).
+
+
+```{r images, layout="l-screen-inset"}
+paths <- file.path("windows", list.files("windows"))
+selected <- sample(paths, floor(runif(n = 1, min = 1, max = 10)))
+
+develop <- function(x) {
+  plot(imager::load.image(x), axes = FALSE)
+  NULL
+}
+par(mar = c(0, 0, 0, 0))
+invisible(lapply(selected, develop))
+```
+
+
+Random selection of 1-9 windows sampled from over 1,600 taken from Feb 2015 - Aug 2021
+
+*This selection is currently programmed to change on an hourly basis*
+
+--
+
+An edition of 80 windows was exhibited as an analogue carousel slideshow projection at Central Saint Martins, 1 Granary Square, London February 2016
+
+--
+
+**Araki Nobuyoshi, Tokyo Radiation August 6-15th, 2010:**
+
+Araki was receiving radiation treatment for cancer and every morning he “looked at the sky from where the bombs came”.
+
+    “Other people brush their teeth, I brush my eyes,”
+
+he said.
+
+--
+
+**Green, D. and Lowry, J. (2003):**
+
+“Photographs... are not just indexical because light happened to be recorded in an instant on a piece of photosensitive film, but because, first and foremost, they were taken.
+
+    The very act of photography, as a kind of gesture,
+
+which points to an event in the world, as a form of designation... is thus itself a form of indexicality.”

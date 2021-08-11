@@ -1,0 +1,15 @@
+name: "light-brushing"
+title: "Light Brushing"
+description: |
+  Light Brushing
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Artist"
+      href: artist.html
+    - text: "shikokuchuo{net}"
+      icon: fa-cube
+      href: https://shikokuchuo.net/
+base_url: https://shikokuchuo.net/light-brushing/
+theme: shikokuchuo.css
+output: distill::distill_article
