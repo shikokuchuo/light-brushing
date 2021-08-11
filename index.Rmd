@@ -29,7 +29,7 @@ invisible(lapply(selected, develop))
 ```
 
 
-Random selection of 1-9 windows sampled from over 1,600 taken from Feb 2015 - Aug 2021
+Random selection of 1-9 windows sampled from over 1,700 taken from Feb 2015 - Aug 2021
 
 *This selection is currently programmed to change on an hourly basis*
 
