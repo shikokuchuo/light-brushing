@@ -1,4 +1,5 @@
-All content, images and photography copyright (C) 2015-2021 Charlie Gao. All rights reserved.
+All content, images and photography
+Copyright (C) 2015-2021 Charlie Gao. All rights reserved.
 
 The computer code for generating the website https://shikokuchuo.net/light-brushing/
 Copyright (C) 2021  Charlie Gao
