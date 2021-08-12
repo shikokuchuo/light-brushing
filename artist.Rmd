@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Charlie Gao](img/artist.jpg)
+![Self-portrait, Shikoku, Japan 2019](img/artist.jpg)
 
 Charlie Gao is an artist using photography as an unbounded and non-specific concept.
 
