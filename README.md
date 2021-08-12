@@ -7,7 +7,8 @@ Since February 2015 (ongoing)
 --
 
 All content, images and photography
-<br />Copyright (C) 2015-2021 Charlie Gao. All rights reserved.
+<br />Copyright (C) 2015-2021 Charlie Gao
+<br />All rights reserved.
 
 The computer code for generating the website https://shikokuchuo.net/light-brushing/ 
 <br />Copyright (C) 2021  Charlie Gao
