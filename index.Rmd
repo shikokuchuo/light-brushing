@@ -32,7 +32,7 @@ print(do.call(c, lapply(selected, develop)), quote = FALSE)
 ```
 
 
-A random selection of between one and nine windows sampled from over 1,700 photographs dating from Feb 2015 to Aug 2021
+A random selection of between one and nine windows sampled from over 1,700 photographs dating from February 2015 to August 2021
 
 --
 

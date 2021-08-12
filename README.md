@@ -2,7 +2,7 @@
 
 http://shikokuchuo.net/light-brushing/
 
-A project conceived at Central Saint Martins
+Since February 2015 (ongoing)
 
 --
 
