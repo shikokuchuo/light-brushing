@@ -1,1 +1,1 @@
-The Light Brushing project at http://shikokuchuo.net/light-brushing/
+The Light Brushing project @ http://shikokuchuo.net/light-brushing/
