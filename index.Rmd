@@ -21,7 +21,7 @@ max <- 9
 
 ```
 
-```{r images}
+```{r images, layout="l-body-outset"}
 
 files <- list.files("windows")
 selected <- sample(files, floor(runif(n = 1, min = min, max = max + 1)))
