@@ -13,7 +13,7 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v1
       - name: Install dependencies
         run: |
-          install.packages(c("distill", "imager"), type = "win.binary")
+          install.packages(c("distill", "imager", "ichimoku"), type = "win.binary")
         shell: Rscript {0}
       - name: Script
         run: Rscript render.R
