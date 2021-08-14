@@ -32,7 +32,7 @@ develop <- function(x) {
 }
 
 par(mar = c(0, 0, 0, 0))
-print(ichimoku::matrix_df(do.call(cbind, lapply(selected, develop))), row.names = FALSE)
+print(do.call(c, lapply(selected, develop)), quote = FALSE)
 
 ```
 
