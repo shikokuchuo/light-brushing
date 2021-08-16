@@ -7,6 +7,9 @@ navbar:
   right:
     - text: "Artist"
       href: artist.html
+    - text: "Books"
+      icon: fa-book
+      href: books.html
     - text: "shikokuchuo{net}"
       icon: fa-cube
       href: https://shikokuchuo.net/

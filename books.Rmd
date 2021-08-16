@@ -1,0 +1,34 @@
+---
+title: "Books"
+description: |
+  Published Photobooks
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<table><tr>
+<td>
+[![Tsuki 月](img/tsuki.jpg "Click to view online"){width=90%}](http://www.blurb.co.uk/bookshare/app/index.html?bookId=6858586)
+
+ISBN 978-1-36-443117-4
+</td>
+<td>
+[![Hanabi 花火](img/hanabi.jpg "Click to view online"){width=90%}](http://www.blurb.co.uk/bookshare/app/index.html?bookId=6858635)
+
+ISBN 978-1-36-443104-4
+</td>
+</tr></table>
+
+Created at Central Saint Martins, University of the Arts London, 2016.
+
+This portfolio is formed of two books which
+
+    explore photography as a performance art「Tsuki 月」, 
+
+as well as a 
+
+    documentation of Japanese and other space-times「Hanabi 花火」.
+
+The books deal with concepts of universal identity and recognition.
