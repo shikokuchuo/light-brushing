@@ -8,8 +8,11 @@ navbar:
     - text: "Artist"
       href: artist.html
     - text: "Books"
-      icon: fa-book
+      icon: fa-file
       href: books.html
+    - text: "Github"
+      icon: fab fa-github
+      href: https://github.com/shikokuchuo/light-brushing/
     - text: "shikokuchuo{net}"
       icon: fa-cube
       href: https://shikokuchuo.net/
