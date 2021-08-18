@@ -1,5 +1,7 @@
 # Light Brushing
 
+[![Render](https://github.com/shikokuchuo/light-brushing/actions/workflows/main.yml/badge.svg)](https://github.com/shikokuchuo/light-brushing/actions/workflows/main.yml)
+
 http://shikokuchuo.net/light-brushing/
 
 Since February 2015 (ongoing)
