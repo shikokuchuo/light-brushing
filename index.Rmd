@@ -28,7 +28,7 @@ selected <- sample(files, floor(runif(n = 1, min = min, max = max + 1)))
 
 develop <- function(x) {
   plot(imager::load.image(file.path("windows", x)), axes = FALSE)
-  paste0("#", gsub(".jpg", "  ", x, fixed = TRUE))
+  paste0(" #", gsub(".jpg", " ", x, fixed = TRUE))
 }
 
 par(mar = c(0, 0, 0, 0))
