@@ -7,12 +7,12 @@ navbar:
   right:
     - text: "Artist"
       href: artist.html
+    - text: "Multiple Histories"
+      icon: fa-grip-vertical
+      href: multiple-histories.html
     - text: "Books"
       icon: fa-file
       href: books.html
-    - text: "Github"
-      icon: fab fa-github
-      href: https://github.com/shikokuchuo/light-brushing/
     - text: "shikokuchuo{net}"
       icon: fa-cube
       href: https://shikokuchuo.net/

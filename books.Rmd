@@ -4,10 +4,6 @@ description: |
   Published Photobooks
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 <table><tr>
 <td>
 [![Tsuki 月](img/tsuki.jpg "Click to view online"){width=90%}](http://www.blurb.co.uk/bookshare/app/index.html?bookId=6858586)
