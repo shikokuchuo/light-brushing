@@ -1,6 +1,6 @@
 ---
 title: "Light Brushing"
-description: Feb 2015 - Nov 2021
+description: Feb 2015 - Dec 2021
 site: distill::distill_website
 ---
 
@@ -41,7 +41,7 @@ print(ichimoku::matrix_df(do.call(cbind, lapply(selected, develop))), row.names 
 flen <- length(files)
 slen <- length(selected)
 cat("A random selection of", slen, if (slen == 1L) "window" else "windows",
-    "sampled from", flen, "photographs dating from Feb 2015\nto Nov 2021.")
+    "sampled from", flen, "photographs dating from Feb 2015\nto Dec 2021.")
 
 ```
 
