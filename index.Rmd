@@ -1,6 +1,6 @@
 ---
 title: "Light Brushing"
-description: Feb 2015 - Dec 2022
+description: Feb 2015 - Mar 2023
 site: distill::distill_website
 ---
 
@@ -16,15 +16,15 @@ Since February 2015 (ongoing).
 
 ```{r inputs}
 # Set number of images returned
-min <- 1
-max <- 6
+min <- 1L
+max <- 6L
 
 ```
 
 ```{r images, layout="l-body-outset"}
 
 files <- list.files("windows")
-selected <- sample(files, floor(runif(n = 1, min = min, max = max + 1)))
+selected <- sample(files, floor(runif(n = 1L, min = min, max = max + 1L)))
 
 develop <- function(x) {
   plot(imager::load.image(file.path("windows", x)), axes = FALSE)
@@ -41,7 +41,7 @@ print(ichimoku::matrix_df(do.call(cbind, lapply(selected, develop))), row.names 
 flen <- length(files)
 slen <- length(selected)
 cat("A random selection of", slen, if (slen == 1L) "window" else "windows",
-    "sampled from", flen, "photographs dating from Feb 2015\nto Dec 2022.")
+    "sampled from", flen, "photographs dating from Feb 2015\nto Mar 2023.")
 
 ```
 
