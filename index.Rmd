@@ -1,11 +1,19 @@
 ---
 title: "Light Brushing"
-description: Feb 2015 - Mar 2023
+description: Feb 2015 - Jul 2023
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+# Latest date as character value
+date <- "Jul 2023"
+
+# Set number of images returned
+min <- 1L
+max <- 6L
+
 ```
 
 I am a photographer.
@@ -13,13 +21,6 @@ I am a photographer.
 I affirm this each morning by pointing my camera at the window and taking a photograph, nothing more than this.
 
 Since February 2015 (ongoing).
-
-```{r inputs}
-# Set number of images returned
-min <- 1L
-max <- 6L
-
-```
 
 ```{r images, layout="l-body-outset"}
 
@@ -40,8 +41,9 @@ print(ichimoku::matrix_df(do.call(cbind, lapply(selected, develop))), row.names 
 
 flen <- length(files)
 slen <- length(selected)
-cat("A random selection of", slen, if (slen == 1L) "window" else "windows",
-    "sampled from", flen, "photographs dating from Feb 2015\nto Mar 2023.")
+msg <- sprintf("A random selection of %d %s sampled from %d photographs dating from Feb 2015\nto %s.",
+               slen, if (slen == 1L) "window" else "windows", flen, date)
+cat(msg)
 
 ```
 
