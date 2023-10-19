@@ -14,9 +14,6 @@ date <- "Oct 2023"
 min <- 1L
 max <- 6L
 
-library(mirai)
-daemons(2L, dispatcher = FALSE)
-
 ```
 
 I am a photographer.
@@ -31,8 +28,7 @@ files <- list.files("windows")
 selected <- sample(files, floor(runif(n = 1L, min = min, max = max + 1L)))
 
 develop <- function(x) {
-  m <- mirai(imager::load.image(file.path("windows", x)), x = x)
-  plot(call_mirai(m)[["value"]], axes = FALSE)
+  plot(imager::load.image(file.path("windows", x)), axes = FALSE)
   paste0(" #", gsub(".jpg", " ", x, fixed = TRUE))
 }
 
@@ -85,7 +81,3 @@ which points to an event in the world, as a form of designation... is thus itsel
 --
 
 An edition of 80 windows was exhibited as an analogue carousel slideshow projection at Central Saint Martins, 1 Granary Square, London February 2016
-
-```{r cleanup}
-daemons(0)
-```
