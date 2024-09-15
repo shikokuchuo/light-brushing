@@ -1,6 +1,6 @@
 ---
 title: "Light Brushing"
-description: Feb 2015 - Jan 2024
+description: Feb 2015 - Sep 2024
 site: distill::distill_website
 ---
 
@@ -8,7 +8,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 
 # Latest date as character value
-date <- "Jan 2024"
+date <- "Sep 2024"
 
 # Set number of images returned
 min <- 1L
