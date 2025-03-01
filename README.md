@@ -9,11 +9,11 @@ Since February 2015 (ongoing)
 --
 
 All content, images and photography
-<br />Copyright (C) 2015-2024 Charlie Gao
+<br />Copyright (C) 2015-2025 Charlie Gao
 <br />All rights reserved.
 
 The computer code for generating the website https://shikokuchuo.net/light-brushing/ 
-<br />Copyright (C) 2021-2024  Charlie Gao
+<br />Copyright (C) 2021-2025  Charlie Gao
 
 *This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.*
 
