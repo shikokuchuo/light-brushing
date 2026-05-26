@@ -21,7 +21,7 @@ jobs:
           use-public-rspm: true
       - name: Install dependencies
         run: |
-          install.packages(c("distill", "imager", "ichimoku"), repos = c("https://shikokuchuo.r-universe.dev", getOption("repos")))
+          install.packages(c("distill", "imager", "ichimoku"))
         shell: Rscript {0}
       - name: Script
         run: Rscript render.R
